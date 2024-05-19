@@ -1,0 +1,27 @@
+#### Criar um Server no Postgres
+#### Em Server (botão direito) > Register > Server... >
+Name: Postgres-railway-dslist
+#### > Connection 
+postgresql://postgres:fcB*fGg24Cdd3-5D62eD13b2de42b5BD@monorail.proxy.rlwy.net:14073/railway
+Host name/address: monorail.proxy.rlwy.net
+Port: 14073
+Maintenance database: railway
+Username: postgres
+Senha: fcB*fGg24Cdd3-5D62eD13b2de42b5BD
+
+#### Advanced > DB restriction criar o nome: railway
+#### Depois em Save (Salvar)
+
+# ficar tentando até dar certo
+
+
+postgresql://postgres:fcB*fGg24Cdd3-5D62eD13b2de42b5BD@postgres.railway.internal:5432/railway
+
+jdbc:postgresql://monorail.proxy.rlwy.net:14073/railway
+jdbc:postgresql://monorail.proxy.rlwy.net:14073/railway
+jdbc:postgresql://monorail.proxy.rlwy.net:14073/railway
+jdbc:postgresql://postgres.railway.internal:5432/railway
+
+
+
+http://localhost:8080/games

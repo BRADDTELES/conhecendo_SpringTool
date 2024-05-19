@@ -1,0 +1,22 @@
+PASSO 1 > Abrir o Git Bash dentro da pasta do Projeto
+
+$ ls
+
+$ git init   //esse comando faz a Inicialização//
+
+$ git add .   //esse comando Adicionar os arquivos//
+
+$ git status
+
+$ git commit -m "Mensagem_de_modificação"   //esse comando usa o Commint para Sobrescrever uma mensagem, dando o nome de cada Etapa do projeto//
+
+$ git status
+
+$ git branch -M main   //esse comando Salva de vez o projeto no main//
+
+$ git remote add origin git@github.com:BRADDTELES/Aula_GitHub.git   //esse é o comando em que depois que se Cria um 'Create a new repository' dando nome do repository//
+
+$ git push -u origin main   //esse comando Enviar os arquivos para o GitHub//
+
+yes
+
